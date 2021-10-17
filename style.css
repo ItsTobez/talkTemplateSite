@@ -1,3 +1,56 @@
 body{
     font-family: sans-serif
 }
+
+.title{
+    position: absolute;
+    font-size: 25vh;
+    top: 10%;
+    left: 2%
+}
+
+.subtitle{
+    position: absolute;
+    top: 52%;
+    left: 4.5%;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+.memoji{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    height: 60vh;
+    width: auto
+}
+
+@media only screen and (max-width: 600px) {
+    .memoji{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        height: 30vh;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        position: absolute;
+        font-size: 5vh;
+        top: 10%;
+        left: 2%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .subtitle{
+        position: absolute;
+        font-size: 3vh;
+        top: 17%;
+        left: 4.5%;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.459);
+    }
+}
