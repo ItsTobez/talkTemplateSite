@@ -3,6 +3,7 @@ body{
 }
 
 .title{
+    z-index: 2;
     position: absolute;
     font-size: 25vh;
     top: 10%;
@@ -10,6 +11,7 @@ body{
 }
 
 .subtitle{
+    z-index: 2;
     position: absolute;
     top: 52%;
     left: 4.5%;
@@ -52,5 +54,28 @@ body{
         left: 4.5%;
         font-weight: normal;
         color: rgba(0, 0, 0, 0.459);
+    }
+}
+
+.button{
+    background: linear-gradient(130deg, rgb(54, 51, 240), rgb(0, 162, 255));
+    border-radius: 16px;
+    border: none;
+    height: 4vh;
+    width: 9vh;
+    position: absolute;
+    top: 67%;
+    left: 4.5%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .button{
+        height: 3vh;
+        width: 7vh;
+        position: absolute;
+        top: 28%;
+        left: 4.5%;
+        cursor: pointer;
     }
 }
