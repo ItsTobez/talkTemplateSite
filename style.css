@@ -58,7 +58,7 @@ body{
 }
 
 .button{
-    background: linear-gradient(130deg, rgb(54, 51, 240), rgb(0, 162, 255));
+    background: rgba(0, 0, 0, 0.459);
     border-radius: 16px;
     border: none;
     height: 4vh;
