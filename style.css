@@ -21,9 +21,9 @@ body{
 
 .memoji{
     position: absolute;
-    top: 15%;
+    top: 23%;
     right: 20%;
-    height: 60vh;
+    height: 40vh;
     width: auto
 }
 
@@ -32,7 +32,7 @@ body{
         position: absolute;
         top: 30%;
         left: 30%;
-        height: 30vh;
+        height: 20vh;
         width: auto;
     }
 }
@@ -78,4 +78,28 @@ body{
         left: 4.5%;
         cursor: pointer;
     }
+}
+
+.credits{
+    position: absolute;
+    color: grey;
+    font-size: 2vh;
+    top: 95%;
+    left: 47%
+}
+
+.href{
+    text-decoration: none !important;
+}
+
+a:link{
+    color: grey;
+}
+
+a:hover{
+    color: rgba(128, 128, 128, 0.616);
+}
+
+a:visited{
+    color: grey
 }
